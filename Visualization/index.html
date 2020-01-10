@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TESA 2020</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+
+    </head>
+    <body>
+        
+        
+        <table class="w3-table-all w3-card-4">
+            <tr>
+                <td>
+                    ศาลหลักเมือง
+                </td>
+                <td>
+                     ละติจูด: 19.166391,
+                    ลองจิจูด: 99.901908
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    วัดอนาลโยทิพยาราม
+                </td>
+                <td>
+                     ละติจูด: 19.177149,
+                    ลองจิจูด: 99.8125771
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    วัดศรีโคมคำ
+                </td>
+                <td>
+                     ละติจูด: 19.176477,
+                    ลองจิจูด: 99.88926
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    พระนาคปรก สธ
+                </td>
+                <td>
+                     ละติจูด: 19.021294,
+                    ลองจิจูด: 99.897926
+                </td>
+            </tr>
+        </table>
+        <div id=map></div>
+      
+        <script src="index.js"></script>
+        <script src="connectServer.js"></script>
+        <script src="getPM.js"></script>
+        <script src="loadModel.js"></script>
+        <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGwWZK_bbs0Q4fdGToSaVaymJbKz9bWWg&libraries=drawing,places,geometry&callback=initMap"
+        async defer></script>
+        <script src="initMap.js"></script>
+   
+    </body>
+</html>
